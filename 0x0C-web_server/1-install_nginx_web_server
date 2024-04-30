@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Install Nginx and update the package list
 echo -e "Updating and installing Nginx.\n"
 sudo apt-get update -y -qq && \
