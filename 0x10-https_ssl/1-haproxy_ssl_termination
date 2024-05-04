@@ -40,10 +40,11 @@ frontend damilolanuga_front_end
     http-request set-header X-Forwarded-Proto https
     default_backend damilolanuga_back_end
 
-backend damilolanuga_back_end
+backend damilolnuga_back_end
     balance roundrobin
+    
     server 530509-web-01 54.167.148.198:80 check
-    server 530509-web-02 34.201.61.181:80 check
+    server 530509-web-02 34.201.61.181:80  check
 
 backend letsencrypt-backend
     server letsencrypt 127.0.0.1:54321
