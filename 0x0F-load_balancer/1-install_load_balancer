@@ -40,8 +40,8 @@ frontend damilolanuga-tech-frontend
 
 backend damilolanuga-tech-backend
     balance roundrobin
-    server 151666-web-01 54.167.148.198:80 check
-    server 151666-web-02 34.201.61.181:80 check
+    server 530509-web-01 54.89.75.134:80 check
+    server 530509-web-02 54.90.56.53:80 check
 "
 
 # shellcheck disable=SC2154
